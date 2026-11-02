@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080710">
+  <title>Shawdix</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      color: white;
+      background:
+        radial-gradient(ellipse at 20% 35%, #56205e 0%, transparent 45%),
+        radial-gradient(ellipse at 80% 40%, #102e68 0%, transparent 45%),
+        #080710;
+      text-align: center;
+    }
+    header { padding: 24px 16px; }
+    .logo {
+      font-size: clamp(42px, 12vw, 76px);
+      font-weight: 900;
+      letter-spacing: 5px;
+      text-shadow: 0 0 12px #ff36c7, 0 0 30px #673cff;
+    }
+    .symbol {
+      width: 100px;
+      height: 45px;
+      margin: 12px auto 25px;
+      border-bottom: 8px solid #f52fca;
+      border-radius: 0 0 60px 60px;
+      filter: drop-shadow(0 0 10px #813bff);
+    }
+    main { padding: 20px; max-width: 700px; margin: auto; }
+    h1 { font-size: 30px; }
+    p { color: #d2cce3; line-height: 1.6; }
+    .panel {
+      margin-top: 28px;
+      padding: 24px;
+      background: #151220d9;
+      border: 1px solid #59316e;
+      border-radius: 18px;
+      box-shadow: 0 0 25px #51207530;
+    }
+    button {
+      border: 0;
+      border-radius: 12px;
+      padding: 14px 22px;
+      margin-top: 12px;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      background: linear-gradient(100deg, #e72fc2, #6247ff);
+      cursor: pointer;
+    }
+    footer { padding: 30px 12px; color: #9990ae; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">SHAWDIX</div>
+    <div class="symbol"></div>
+    <p>Bienvenue dans mon univers.</p>
+  </header>
+
+  <main>
+    <h1>Entre dans Shawdix</h1>
+    <p>Un univers sombre, coloré et mystérieux, aux couleurs rose, violet et bleu.</p>
+
+    <section class="panel">
+      <h2>✨ Bienvenue !</h2>
+      <p>Ton espace Shawdix est prêt à commencer.</p>
+      <button onclick="alert('Bienvenue dans Shawdix ! 💜')">
+        Entrer dans Shawdix
+      </button>
+    </section>
+  </main>
+
+  <footer>© Shawdix — Mon univers, mes créations.</footer>
+</body>
+</html>
